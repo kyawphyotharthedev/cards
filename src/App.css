@@ -1,0 +1,28 @@
+:root {
+  --theme-color: #63b9db;
+  --icon-color: #f9fbfc;
+}
+
+.comp-description {
+  color: var(--theme-color);
+}
+
+.card-icon {
+  color: var(--icon-color);
+  transition: 0.5s;
+}
+
+.icon-container {
+  background-color: var(--theme-color);
+}
+.icon-container:hover .card-icon {
+  transform: scale(1.2);
+}
+
+.card-heading {
+  color: var(--theme-color);
+}
+
+.card-arrow {
+  color: var(--theme-color);
+}
